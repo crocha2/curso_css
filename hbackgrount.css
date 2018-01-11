@@ -1,0 +1,13 @@
+body
+{
+	background-color: #050101;	
+	background-image: url(html5.png);
+	background-repeat: no-repeat, repeat;
+	background-position: center;, left top;
+	background-size: 20% 30%;
+}
+
+.space
+{
+	height: 800px;
+}
