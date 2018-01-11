@@ -1,0 +1,21 @@
+body
+{
+	font-family: arial, helvetica, sans-serif;
+}
+
+.parrafo-prueba
+{
+	font-weight: bolder; /*Nos permite editar el grueso de nuestra fuente o letra (bold)*/
+	font-size: 32px; /*Nos permite editar el tamao de la letra*/
+}
+
+.parrafo-dos
+{
+	font-style: italic; /*coloca el texto en cursiva*/
+	/*font-variant:small-caps;*/  /*Transforma el texto en mayuscula*/
+}
+
+.parrafo-tres
+{
+	font-style: oblique; /*coloca el texto en oblicuas que es muy parecido e la cursiva*/
+}

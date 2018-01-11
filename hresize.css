@@ -1,0 +1,9 @@
+.tamano
+{
+	height: 30px;
+	width: 30px;
+	overflow: hidden; /*Esconde lo que se sale de (30x30px) height y width*/
+	resize: both; /*Permite al usuario redimensionar el elemento para ver el texto mas pequeo o mas grande, etc.*/
+	border: solid; /*Le coloca un borde al elemento*/
+	border-color: #069; /*Le da color al borde*/
+}

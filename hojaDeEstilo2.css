@@ -1,0 +1,31 @@
+a
+{
+	color: #333333;
+	text-decoration: none; /*quita la linea que va debajo del link por defecto*/
+}
+
+a:link /*Tiene un color cuando no ha sido visitado el link*/
+{
+	color: #900;
+}
+
+a:visited /*Cambia de color cuando el link es visitado*/
+{
+	color: #003399;
+}
+
+a:hover /*cuando pasas el cursor sobre el elemento, este cambia de color (ya sea el fondo o la letra etc)*/
+{
+	background-color: #CCC; 
+	color: #FFFFFF;
+}
+
+input:focus /*cambia el color del borde cuando haces clic sobre el elemento*/
+{
+	border-color: #F00;
+}
+
+nav ul /*hace referencia a los elementos de ul que estén dentro de nav*/
+{
+
+}

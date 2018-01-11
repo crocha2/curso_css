@@ -1,0 +1,49 @@
+ol li
+{
+	list-style-type: none;
+}
+
+div
+{
+	border: solid;
+}
+
+.youtube:hover
+{
+	content: url(youtube2.png);
+}
+.google:hover
+{
+	content: url(google2.png);
+}
+
+.facebook:hover
+{
+	content: url(facebook2.png);
+}
+
+.tamano
+{
+	height: 50px;
+	width: 60px;
+	overflow: hidden;
+	resize: both;
+	border: solid;
+}
+
+body
+{
+	font-family: arial, helvetica, sans-serif;
+}
+
+.parrafoUno
+{
+	font-weight: bolder;
+	font-size: 30px;
+}
+.parrafoDos
+{
+	font-style: italic;
+	font-variant: small-caps;
+
+}

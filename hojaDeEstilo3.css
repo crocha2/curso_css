@@ -1,0 +1,30 @@
+ul li
+{
+	list-style-type: none; /*Quita las bolitas que tienen los elementos li*/
+	font-size: 50px;/*Nos permite cambiarle el tamaño a las letras*/
+	font-weight: bold;/*Letra en negrita*/
+	color: #069;/*Color de la letra*/
+}
+
+ul li::before /*Permite colocar un elemento antes del elemento que se encuentra en li*/
+{
+	content: url(barcelona.png); /*Nos permite seleccionar una imagen que tengamos en la pc*/
+}
+
+ul li::after /*Permite colocar un elemento despues del elemento que se encuentra en li*/
+{
+	content: url(barcelona.png); /*Nos permite seleccionar una imagen que tengamos en la pc*/
+}
+
+p::first-letter /*Cambia la apariencia de la primera letra*/
+{
+	font-size: 36px;/*Nos permite cambiarle el tamaño a las letras*/
+	font-weight: bold;/*Letra en negrita*/
+	color: #FF0000;/*Color de la letra*/
+}
+
+p::first-line /*edita la primera linea del parrafo*/
+{
+	text-decoration: underline;/*subraya*/
+	color: #FF0000;/*Color de la letra*/
+}
